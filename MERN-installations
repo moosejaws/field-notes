@@ -1,0 +1,29 @@
+MERN - npm installations
+
+Establish project and backend
+
+$
+mkdir my-app
+cd my-app
+
+$/my-app
+npm init
+npm install express
+npm install nodemon
+npm install morgan
+npm install mongoose
+npm install bcrypt
+npm install jsonwebtoken
+npm install dotenv
+npm install express-jwt
+
+Client
+
+$/my-app
+mkdir client
+cd client
+
+$/my-app/client
+npx create-react-app .
+npm install react-router-dom
+npm install axios
