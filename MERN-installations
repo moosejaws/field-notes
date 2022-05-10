@@ -1,5 +1,4 @@
-MERN - npm installations
-
+MERN - pre-dev & npm installations
 Establish project and backend
 
 $
@@ -11,7 +10,7 @@ npm init
 npm install express
 npm install nodemon
 npm install morgan
-npm install mongoose
+npm install -g mongoose@5.13.0
 npm install bcrypt
 npm install jsonwebtoken
 npm install dotenv
@@ -26,5 +25,26 @@ cd client
 
 $/my-app/client
 npx create-react-app .
-npm install react-router-dom
+npm install react-router-dom@6.2.2
 npm install axios
+
+cd ..
+code .
+
+
+From Code Editor
+
+Add files:
+
+.env
+.gitignore
+.server.js
+>routes
+>models
+
+>client
+	>components
+
+
+.package.json
+add "proxy": "http://0.0.0.0:9000"
