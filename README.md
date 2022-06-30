@@ -8,3 +8,6 @@ https://lospec.com/palette-list
 
 >Linear Gradients
 https://uigradients.com/
+
+>JavaScript Animations Three.js
+https://threejs.org/
